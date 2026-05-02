@@ -1,0 +1,85 @@
+﻿* {
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+body {
+  height: 100vh;
+  background-color: #0f0f1e;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+/*abaixo apenas sign-up e logo*/
+header{
+  background-color: hsla(219, 52%, 24%, 0.5);
+  border-bottom: 2px solid hsla(0, 0%, 100%, 0.2);
+}
+header div a{
+  text-decoration: none;
+  color: white;
+}
+.logo-sign{
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  justify-content: space-between;
+  margin-right: 10px;
+}
+.logo-sign h1{
+  font-family: "Orbitron", sans-serif;
+  top: 20px;
+  padding: 10px;
+  font-size: 2rem;
+  font-weight: 900;
+  color: #00f7ff;
+  text-shadow: 0 0 10px rgba(0, 247, 255, 05);
+}
+/*abaixo apenas botao sign-in e credenciais*/
+.sign-in-btn {
+  font-family: "Orbitron", sans-serif;
+  border: 2px solid #00f7ff;
+  border-radius: 10px;
+  height: 30px;
+}
+.sign-in-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1) ;
+  transition-duration: 0.4s;
+}
+.sign{
+  display: flex;
+  justify-content: center;
+}
+.sign form{
+  background-color: rgb(7, 25, 69);
+  padding: 50px;
+  margin: 50px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  border-radius: 14px;
+  border: 3px solid rgba(255, 255, 255, 0.07);
+}
+.sign form input{
+  border-radius: 10px;
+  height: 30px;
+}
+.sign-in-input{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.container{
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
